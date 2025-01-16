@@ -17,7 +17,7 @@ test('subtract -5 - -10 to equal 5', () => {
 });
 
 test('La division entre los dos numeros',() =>{
-  expect(calculator.divide(10, 0)).toBe(0);
+  expect(calculator.divide(10, 0)).toContain("No se puede dividir");
 });
 
 test('La division entre los dos numeros',() =>{

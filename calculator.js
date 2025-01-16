@@ -7,13 +7,15 @@ const subtract = function(a, b) {
 
 function divide(a, b, c) {
   if (b === 0) {
-      throw new Error('Cannot divide by zero');
+      return ("No se puede dividir");
   }
   if (!c) {
       return a / b;
   } else {
       return (a / b) / c;
   }
+
+
 }
 
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw?utm_source
